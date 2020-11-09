@@ -26,3 +26,18 @@ proxySouce imple source{
  }
 
 }
+
+
+1、代理模式和装饰模式的区别
+1、代理模式初始化被代理对象时，一般不给客户知道我代理了那个对象
+所以构造方法中被代理对象是直接初始化好的
+1、代理对象
+proxySource(){
+ source =new Source()
+}
+2、
+ decorator( Source source){
+  sour =this.source;
+ }
+
+
